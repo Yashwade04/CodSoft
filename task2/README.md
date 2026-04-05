@@ -1,40 +1,107 @@
-# Full-Stack Online Quiz Maker
+# 🧠 Online Quiz Maker
 
-This is a modern full-stack application built with React (Vite) and Node.js with MongoDB.
+A full-stack web application that allows users to create, take, and manage quizzes with real-time results and feedback.
 
-## Prerequisites
+---
+
+## 🚀 Features
+
+- 🏠 Home page with options to create or take quizzes  
+- ✍️ Create quizzes with multiple-choice questions  
+- 📋 View list of available quizzes  
+- ▶️ Take quizzes with interactive UI  
+- 📊 Instant results with correct answers  
+- 🔐 User authentication (Login/Register)  
+- 📱 Responsive design for mobile & desktop  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend:
+- HTML
+- CSS
+- JavaScript / React (if used)
+
+### Backend:
 - Node.js
-- MongoDB running locally or a MongoDB Atlas URI in `server/.env`.
-  - By default, it uses `mongodb://localhost:27017/quizmaker`
+- Express.js
 
-## Run Instructions
+### Database:
+- MongoDB / PostgreSQL
 
-### 1. Backend Setup
-1. Open a terminal and navigate to the backend folder:
-   ```bash
-   cd server
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the backend Node server:
-   ```bash
-   npm start
-   ```
-   *The backend will run on http://localhost:5000*
+---
 
-### 2. Frontend Setup
-1. Open a new terminal and navigate to the frontend folder:
-   ```bash
-   cd client
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the React development server:
-   ```bash
-   npm run dev
-   ```
-   *The frontend will run on http://localhost:5173*
+## 📂 Project Structure
+task2/
+│── client/ # Frontend
+│── server/ # Backend
+│── package.json
+│── README.md
+
+
+---
+
+## ▶️ How to Run
+
+Install Dependencies
+
+
+For server:
+
+cd server
+npm install
+npm start
+
+
+For client:
+
+cd client
+npm install
+npm run dev
+
+
+
+
+
+---
+
+## 📸 Screenshot
+
+![Quiz App](screenshot1.png)
+![Quiz App](screenshot2.png)
+![Quiz App](screenshot3.png)
+![Quiz App](screenshot4.png)
+
+
+---
+
+## 🔐 Authentication
+
+- User registration & login system  
+- Secure access to quiz creation and results  
+
+---
+
+## 📊 Functional Modules
+
+- Quiz Creation  
+- Quiz Taking  
+- Quiz Listing  
+- Result Evaluation  
+- User Dashboard  
+
+---
+
+## 📌 Future Improvements
+
+- Timer for quizzes ⏱️  
+- Leaderboard 🏆  
+- Admin panel  
+- Category-based quizzes  
+
+---
+
+## 👨‍💻 Author
+
+Yash Wade
